@@ -1,6 +1,6 @@
 {
   "presentation_definition": {
-    "id": "MOSIPVerifiableCredential_testing",
+    "id": "MOSIPVerifiableCredential testing",
     "name": "MOSIP ID",
     "purpose": "Relying party is requesting your digital ID for the purpose of Self-Authentication",
     "input_descriptors": [
