@@ -6,7 +6,7 @@
       "credential_issuer_host": "https://${mosip.injicertify.mosipid.host}",
       "display": [
         {
-          "name": "National Identity Department Mosip(QA_devInt)",
+          "name": "QA_devInt",
           "logo": {
             "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
