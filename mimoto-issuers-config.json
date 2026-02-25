@@ -75,7 +75,7 @@
       "authorization_audience": "https://${mosipid.identity.esignet.devintinji.host}/v1/esignet/oauth/v2/token",
       "proxy_token_endpoint": "https://${mosipid.identity.esignet.devintinji.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "EmbeddedVC",
-      "enabled": "false"
+      "enabled": "true"
     },
     {
       "issuer_id": "StayProtected(QA)",
