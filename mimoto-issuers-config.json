@@ -1,83 +1,6 @@
 {
   "issuers": [
     {
-      "issuer_id": "Mosip(QA_devInt)",
-      "credential_issuer": "Mosip(QA_devInt)",
-      "credential_issuer_host": "https://${mosip.injicertify.mosipid.host}",
-      "display": [
-        {
-          "name": "National Identity Department Mosip(QA_devInt)",
-          "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
-            "alt_text": "mosip-logo"
-          },
-          "title": "National Identity Department (devintinji)",
-          "description": "Download MOSIP National / Foundational Identity Credential",
-          "language": "en"
-        },
-        {
-          "name": "دائرة الهوية الوطنية",
-          "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
-            "alt_text": "شعار موسيب"
-          },
-          "title": "دائرة الهوية الوطنية",
-          "description": "قم بتنزيل بيانات اعتماد الهوية الوطنية / التأسيسية MOSIP",
-          "language": "ar"
-        },
-        {
-          "name": "राष्ट्रीय पहचान विभाग",
-          "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
-            "alt_text": "मोसिप लोगो"
-          },
-          "title": "राष्ट्रीय पहचान विभाग",
-          "description": "MOSIP नेशनल/फाउंडेशनल आइडेंटिटी क्रेडेंशियल डाउनलोड करेंं",
-          "language": "hi"
-        },
-        {
-          "name": "ರಾಷ್ಟ್ರೀಯ ಗುರುತಿನ ಇಲಾಖೆ",
-          "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
-            "alt_text": "mosip ಲೋಗೋ"
-          },
-          "title": "ರಾಷ್ಟ್ರೀಯ ಗುರುತಿನ ಇಲಾಖೆ",
-          "description": "MOSIP ರಾಷ್ಟ್ರೀಯ / ಫೌಂಡೇಶನಲ್ ಐಡೆಂಟಿಟಿ ರುಜುವಾತು ಡೌನ್\u200Cಲೋಡ್ ಮಾಡಿ",
-          "language": "kn"
-        },
-        {
-          "name": "தேசிய அடையாளத் துறை",
-          "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
-            "alt_text": "mosip லோகோ"
-          },
-          "title": "தேசிய அடையாளத் துறை",
-          "description": "MOSIP தேசிய / அடிப்படை அடையாளச் சான்றிதழைப் பதிவிறக்கவும்",
-          "language": "ta"
-        },
-        {
-          "name": "National Identity Department",
-          "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
-            "alt_text": "logo ng mosip"
-          },
-          "title": "National Identity Department",
-          "description": "I-download ang MOSIP National / Foundational Identity Credential",
-          "language": "fil"
-        }
-      ],
-      "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
-      "client_alias": "mpartner-default-mimoto-mosipid-oidc",
-      "wellknown_endpoint": "https://${mosip.injicertify.mosipid.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
-      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mosip(QA_devInt)",
-      "authorization_audience": "https://${mosipid.identity.esignet.devintinji.host}/v1/esignet/oauth/v2/token",
-      "proxy_token_endpoint": "https://${mosipid.identity.esignet.devintinji.host}/v1/esignet/oauth/v2/token",
-      "qr_code_type": "OnlineSharing",
-      "enabled": "true"
-    },
-    {
       "issuer_id": "StayProtected(QA)",
       "credential_issuer": "StayProtected(QA)",
       "credential_issuer_host": "https://${mosip.injicertify.insurance.host}",
@@ -85,7 +8,7 @@
         {
           "name": "StayProtected Insurance(QA)",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/StayProtectedInsurance.png",
+            "url": "https://inji.github.io/inji-config/logos/StayProtectedInsurance.png",
             "alt_text": "a square logo of a Sunbird"
           },
           "language": "en",
@@ -95,7 +18,7 @@
       ],
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.insurance.partner.clientid}",
-      "client_alias": "mpartner-default-mimoto-insurance-oidc",
+      "client_alias": "mpartner-qainji-mimoto-insurance-oidc",
       "wellknown_endpoint": "https://${mosip.injicertify.insurance.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected(QA)",
@@ -112,7 +35,7 @@
         {
           "name": "Mock Identity(QA)",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
           },
           "title": "Mock Identity (qa-inji1)",
@@ -122,7 +45,7 @@
       ],
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.mock.partner.clientid}",
-      "client_alias": "mpartner-default-mimoto-mock-oidc",
+      "client_alias": "mpartner-qainji-mimoto-mock-oidc",
       "wellknown_endpoint": "https://${mosip.injicertify.mock.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "authorization_audience": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
@@ -132,14 +55,41 @@
       "enabled": "true"
     },
     {
-      "issuer_id":"Land",
+      "issuer_id": "Mobile Driving License (PDI QA)",
+      "credential_issuer": "Mobile Driving License (PDI QA)",
+      "credential_issuer_host": "https://${mosip.injicertify.mdoc.host}",
+      "display": [
+        {
+          "name": "Mobile Driving License (PDI QA)",
+          "logo": {
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
+            "alt_text": "mosip-logo"
+          },
+          "title": "Mobile Driving License PDI (qa-inji1)",
+          "description": "Download Mobile Driving License Credential",
+          "language": "en"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.mock.partner.clientid}",
+      "client_alias": "mpartner-qainji-mimoto-mock-oidc",
+      "wellknown_endpoint": "https://${mosip.injicertify.mdoc.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "authorization_audience": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mobile Driving License (PDI QA)",
+      "proxy_token_endpoint": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
+      "qr_code_type": "OnlineSharing",
+      "enabled": "true"
+    },
+    {
+      "issuer_id": "Land",
       "credential_issuer": "Land",
-      "credential_issuer_host":"https://${mosip.injicertify.landregistry.host}",
+      "credential_issuer_host": "https://${mosip.injicertify.landregistry.host}",
       "display": [
         {
           "name": "Land Registry",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/agro-vertias-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/agro-vertias-logo.png",
             "alt_text": "land-logo"
           },
           "title": "Land Registry (qa-inji1)",
@@ -149,7 +99,7 @@
       ],
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.land.partner.clientid}",
-      "client_alias": "mpartner-default-mimoto-land-released-oidc",
+      "client_alias": "mpartner-qainji-mimoto-land-released-oidc",
       "wellknown_endpoint": "https://${mosip.injicertify.landregistry.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "authorization_audience": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
@@ -166,7 +116,7 @@
         {
           "name": "National Identity Department",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
           },
           "title": "National Identity Department (released)",
@@ -176,7 +126,7 @@
         {
           "name": "دائرة الهوية الوطنية",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "شعار موسيب"
           },
           "title": "دائرة الهوية الوطنية",
@@ -186,7 +136,7 @@
         {
           "name": "राष्ट्रीय पहचान विभाग",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "मोसिप लोगो"
           },
           "title": "राष्ट्रीय पहचान विभाग",
@@ -196,17 +146,17 @@
         {
           "name": "ರಾಷ್ಟ್ರೀಯ ಗುರುತಿನ ಇಲಾಖೆ",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip ಲೋಗೋ"
           },
           "title": "ರಾಷ್ಟ್ರೀಯ ಗುರುತಿನ ಇಲಾಖೆ",
-          "description": "MOSIP ರಾಷ್ಟ್ರೀಯ / ಫೌಂಡೇಶನಲ್ ಐಡೆಂಟಿಟಿ ರುಜುವಾತು ಡೌನ್\u200Cಲೋಡ್ ಮಾಡಿ",
+          "description": "MOSIP ರಾಷ್ಟ್ರೀಯ / ಫೌಂಡೇಶನಲ್ ಐಡೆಂಟಿಟಿ ರುಜುವಾತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
           "language": "kn"
         },
         {
           "name": "தேசிய அடையாளத் துறை",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip லோகோ"
           },
           "title": "தேசிய அடையாளத் துறை",
@@ -216,7 +166,7 @@
         {
           "name": "National Identity Department",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "logo ng mosip"
           },
           "title": "National Identity Department",
@@ -243,7 +193,7 @@
         {
           "name": "StayProtected Insurance",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/StayProtectedInsurance.png",
+            "url": "https://inji.github.io/inji-config/logos/StayProtectedInsurance.png",
             "alt_text": "a square logo of a Sunbird"
           },
           "language": "en",
@@ -270,7 +220,7 @@
         {
           "name": "Mock Identity",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
           },
           "title": "Mock Identity (released)",
@@ -297,7 +247,7 @@
         {
           "name": "Mock Mobile Driving License",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
           },
           "title": "Mock Mobile Driving License (released)",
@@ -317,14 +267,14 @@
       "enabled": "true"
     },
     {
-      "issuer_id":"Land(Released)",
+      "issuer_id": "Land(Released)",
       "credential_issuer": "Land(Released)",
-      "credential_issuer_host":"https://${mosip.injicertify.landregistry.released.host}",
+      "credential_issuer_host": "https://${mosip.injicertify.landregistry.released.host}",
       "display": [
         {
           "name": "Land Registry (Released)",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/agro-vertias-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/agro-vertias-logo.png",
             "alt_text": "land-logo"
           },
           "title": "Land Registry (released)",
@@ -344,14 +294,14 @@
       "enabled": "true"
     },
     {
-      "issuer_id":"Land(Released-Test)",
+      "issuer_id": "Land(Released-Test)",
       "credential_issuer": "Land(Released-Test)",
-      "credential_issuer_host":"https://${mosip.injicertify.landregistry.released.host}",
+      "credential_issuer_host": "https://${mosip.injicertify.landregistry.released.host}",
       "display": [
         {
           "name": "Land Registry (Released-Test)",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/agro-vertias-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/agro-vertias-logo.png",
             "alt_text": "land-logo"
           },
           "title": "Land Registry (released - test)",
@@ -378,7 +328,7 @@
         {
           "name": "National Identity Department (Collab)",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
           },
           "title": "National Identity Department (collab)",
@@ -388,7 +338,7 @@
         {
           "name": "دائرة الهوية الوطنية",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "شعار موسيب"
           },
           "title": "دائرة الهوية الوطنية",
@@ -398,7 +348,7 @@
         {
           "name": "राष्ट्रीय पहचान विभाग",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "मोसिप लोगो"
           },
           "title": "राष्ट्रीय पहचान विभाग",
@@ -408,17 +358,17 @@
         {
           "name": "ರಾಷ್ಟ್ರೀಯ ಗುರುತಿನ ಇಲಾಖೆ",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip ಲೋಗೋ"
           },
           "title": "ರಾಷ್ಟ್ರೀಯ ಗುರುತಿನ ಇಲಾಖೆ",
-          "description": "MOSIP ರಾಷ್ಟ್ರೀಯ / ಫೌಂಡೇಶನಲ್ ಐಡೆಂಟಿಟಿ ರುಜುವಾತು ಡೌನ್\u200Cಲೋಡ್ ಮಾಡಿ",
+          "description": "MOSIP ರಾಷ್ಟ್ರೀಯ / ಫೌಂಡೇಶನಲ್ ಐಡೆಂಟಿಟಿ ರುಜುವಾತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
           "language": "kn"
         },
         {
           "name": "தேசிய அடையாளத் துறை",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip லோகோ"
           },
           "title": "தேசிய அடையாளத் துறை",
@@ -428,7 +378,7 @@
         {
           "name": "National Identity Department",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "logo ng mosip"
           },
           "title": "National Identity Department",
@@ -455,7 +405,7 @@
         {
           "name": "StayProtected Insurance (Collab)",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/StayProtectedInsurance.png",
+            "url": "https://inji.github.io/inji-config/logos/StayProtectedInsurance.png",
             "alt_text": "a square logo of a Sunbird"
           },
           "language": "en",
@@ -482,7 +432,7 @@
         {
           "name": "Mock Identity (Collab)",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
           },
           "title": "Mock Identity (collab)",
@@ -509,7 +459,7 @@
         {
           "name": "Mock Mobile Driving License (Collab)",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
           },
           "title": "Mock Mobile Driving License (collab)",
@@ -519,7 +469,7 @@
         {
           "name": "Pilka mobiiliajokortti",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
           },
           "title": "Pilka mobiiliajokortti",
@@ -539,14 +489,14 @@
       "enabled": "true"
     },
     {
-      "issuer_id":"Land(Collab)",
+      "issuer_id": "Land(Collab)",
       "credential_issuer": "Land(Collab)",
-      "credential_issuer_host":"https://${mosip.injicertify.landregistry.collab.host}",
+      "credential_issuer_host": "https://${mosip.injicertify.landregistry.collab.host}",
       "display": [
         {
           "name": "Land Registry (Collab)",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/agro-vertias-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/agro-vertias-logo.png",
             "alt_text": "land-logo"
           },
           "title": "Land Registry (collab)",
@@ -566,90 +516,14 @@
       "enabled": "true"
     },
     {
-      "issuer_id": "MosipTAN",
-      "credential_issuer": "MosipTAN",
-      "credential_issuer_host": "https://injicertify-tan.dev2.mosip.net/v1/certify/issuance",
-      "display": [
-        {
-          "name": "Veridonia Income Tax Department",
-          "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/tan-logo.png",
-            "alt_text": "Tax Account Credential logo"
-          },
-          "title": "Veridonia Income Tax Department (collab)",
-          "description": "Download Tax ID credential",
-          "language": "en"
-        },
-        {
-          "name": "إدارة ضريبة الدخل في فيريدونيا",
-          "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/tan-logo.png",
-            "alt_text": "Tax Account Credential logo"
-          },
-          "title": "إدارة ضريبة الدخل في فيريدونيا",
-          "description": "تنزيل بيانات اعتماد المعرف الضريبي",
-          "language": "ar"
-        },
-        {
-          "name": "वेरिडोनिया आयकर विभाग",
-          "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/tan-logo.png",
-            "alt_text": "Tax Account Credential logo"
-          },
-          "title": "वेरिडोनिया आयकर विभाग",
-          "description": "टैक्स आईडी क्रेडेंशियल डाउनलोड करें",
-          "language": "hi"
-        },
-        {
-          "name": "ವೆರಿಡೋನಿಯಾ ಆದಾಯ ತೆರಿಗೆ ಇಲಾಖೆ",
-          "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/tan-logo.png",
-            "alt_text": "Tax Account Credential logo"
-          },
-          "title": "ವೆರಿಡೋನಿಯಾ ಆದಾಯ ತೆರಿಗೆ ಇಲಾಖೆ",
-          "description": "ತೆರಿಗೆ ID ರುಜುವಾತುಗಳನ್ನು ಡೌನ್ ಲೋಡ್ ಮಾಡಿ",
-          "language": "kn"
-        },
-        {
-          "name": "Département de l'impôt sur le revenu de Veridonia",
-          "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/tan-logo.png",
-            "alt_text": "Tax Account Credential logo"
-          },
-          "title": "Département de l'impôt sur le revenu de Veridonia",
-          "description": "Télécharger l'identifiant fiscal",
-          "language": "fr"
-        },
-        {
-          "name": "Veridonia Tax Department",
-          "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/tan-logo.png",
-            "alt_text": "Tax Account Credential logo"
-          },
-          "title": "Veridonia Tax Department",
-          "description": "Download Kredensyal sa Tax ID",
-          "language": "fil"
-        }
-      ],
-      "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.oidc.mosipid.partner.collab.clientid}",
-      "client_alias": "mpartner-default-mimoto-mosipid-oidc-client",
-      "wellknown_endpoint": "https://injicertify-tan.dev2.mosip.net/v1/certify/issuance/.well-known/openid-credential-issuer",
-      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/MosipTAN",
-      "authorization_audience": "https://${mosipid.identity.esignet.collab.host}/v1/esignet/oauth/v2/token",
-      "proxy_token_endpoint": "https://${mosipid.identity.esignet.collab.host}/v1/esignet/oauth/v2/token",
-      "qr_code_type": "EmbeddedVC",
-      "enabled": "true"
-    },{
       "issuer_id": "VeridoniaNational",
       "credential_issuer": "VeridoniaNational",
       "credential_issuer_host": "https://${mosip.injicertify.mosipid.host}",
       "display": [
         {
-          "name": "Veridonia National Identity Department",
+          "name": "Veridonia National Identity Department (qa-inji1)",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/veridonia-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/veridonia-logo.png",
             "alt_text": "mosip-logo"
           },
           "title": "National Identity Department (qa-inji1)",
@@ -659,7 +533,7 @@
         {
           "name": "دائرة الهوية الوطنية",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/veridonia-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/veridonia-logo.png",
             "alt_text": "شعار موسيب"
           },
           "title": "دائرة الهوية الوطنية",
@@ -669,7 +543,7 @@
         {
           "name": "राष्ट्रीय पहचान विभाग",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/veridonia-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/veridonia-logo.png",
             "alt_text": "मोसिप लोगो"
           },
           "title": "राष्ट्रीय पहचान विभाग",
@@ -679,17 +553,17 @@
         {
           "name": "ರಾಷ್ಟ್ರೀಯ ಗುರುತಿನ ಇಲಾಖೆ",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/veridonia-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/veridonia-logo.png",
             "alt_text": "mosip ಲೋಗೋ"
           },
           "title": "ರಾಷ್ಟ್ರೀಯ ಗುರುತಿನ ಇಲಾಖೆ",
-          "description": "MOSIP ರಾಷ್ಟ್ರೀಯ / ಫೌಂಡೇಶನಲ್ ಐಡೆಂಟಿಟಿ ರುಜುವಾತು ಡೌನ್\u200Cಲೋಡ್ ಮಾಡಿ",
+          "description": "MOSIP ರಾಷ್ಟ್ರೀಯ / ಫೌಂಡೇಶನಲ್ ಐಡೆಂಟಿಟಿ ರುಜುವಾತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
           "language": "kn"
         },
         {
           "name": "தேசிய அடையாளத் துறை",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip லோகோ"
           },
           "title": "தேசிய அடையாளத் துறை",
@@ -699,7 +573,7 @@
         {
           "name": "National Identity Department",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/veridonia-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/veridonia-logo.png",
             "alt_text": "logo ng mosip"
           },
           "title": "National Identity Department (qa-inji1)",
@@ -709,7 +583,7 @@
       ],
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
-      "client_alias": "mpartner-default-mimoto-mosipid-oidc",
+      "client_alias": "mpartner-qainji-mimoto-mosipid-oidc",
       "wellknown_endpoint": "https://${mosip.injicertify.mosipid.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/VeridoniaNational",
@@ -726,7 +600,7 @@
         {
           "name": "National Identity Department Mosip(esqa)",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
           },
           "title": "National Identity Department (es-qa)",
@@ -736,7 +610,7 @@
         {
           "name": "دائرة الهوية الوطنية",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "شعار موسيب"
           },
           "title": "دائرة الهوية الوطنية",
@@ -746,7 +620,7 @@
         {
           "name": "राष्ट्रीय पहचान विभाग",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "मोसिप लोगो"
           },
           "title": "राष्ट्रीय पहचान विभाग",
@@ -756,17 +630,17 @@
         {
           "name": "ರಾಷ್ಟ್ರೀಯ ಗುರುತಿನ ಇಲಾಖೆ",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip ಲೋಗೋ"
           },
           "title": "ರಾಷ್ಟ್ರೀಯ ಗುರುತಿನ ಇಲಾಖೆ",
-          "description": "MOSIP ರಾಷ್ಟ್ರೀಯ / ಫೌಂಡೇಶನಲ್ ಐಡೆಂಟಿಟಿ ರುಜುವಾತು ಡೌನ್\u200Cಲೋಡ್ ಮಾಡಿ",
+          "description": "MOSIP ರಾಷ್ಟ್ರೀಯ / ಫೌಂಡೇಶನಲ್ ಐಡೆಂಟಿಟಿ ರುಜುವಾತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
           "language": "kn"
         },
         {
           "name": "தேசிய அடையாளத் துறை",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip லோகோ"
           },
           "title": "தேசிய அடையாளத் துறை",
@@ -776,7 +650,7 @@
         {
           "name": "National Identity Department",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "logo ng mosip"
           },
           "title": "National Identity Department",
@@ -803,7 +677,7 @@
         {
           "name": "Farmer ID Card",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/agro-vertias-logo.png",
+            "url": "https://inji.github.io/inji-config/logos/agro-vertias-logo.png",
             "alt_text": "mosip-logo"
           },
           "title": "Farmer ID Card",
