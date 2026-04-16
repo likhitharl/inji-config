@@ -11,6 +11,13 @@
       "id": "did:web:inji.github.io:inji-config:released:mosipid-identity#93nKJqGO5wTUafw5nEo8LPCjO5HAvZOCP2X7DjWG1YY",
       "type": "RsaVerificationKey2018",
       "@context": "https://w3id.org/security/v1"
+    },
+    {
+      "publicKeyMultibase": "z6MkiYPnYJXdGuik1QJMU2n4CxBxaeAmWWhbf6FuXNcCRH4Q",
+      "controller": "did:web:inji.github.io:inji-config:released:mosipid-identity",
+      "id": "did:web:inji.github.io:inji-config:released:mosipid-identity#cV59Ht0-JLE6aQ-rsa7DPiQ5EdnQuY092_CmMdUbZJg",
+      "type": "Ed25519VerificationKey2020",
+      "@context": "https://w3id.org/security/suites/ed25519-2020/v1"
     }
   ],
   "@context": [
