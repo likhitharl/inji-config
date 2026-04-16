@@ -1,0 +1,23 @@
+{
+  "assertionMethod": [
+    "did:web:inji.github.io:inji-config:released:mosipid-identity"
+  ],
+  "service": [],
+  "id": "did:web:inji.github.io:inji-config:released:mosipid-identity",
+  "verificationMethod": [
+    {
+      "controller": "did:web:inji.github.io:inji-config:released:mosipid-identity",
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8O2cQ1fQbqbDfypHxMKM\narkS8/C9xaZ8XoI1ky4AaJphwkvxgJChvznFJVKCDXDSQaR8xltcfATXMvwuA6ym\nfRooI7wuhrBX9yZas00eGThgqu0YFAzibxPWRugTtPa8GPjyCGCH/5PQb0Ib7Etv\nWL/WFiLvaCDVlM5auA1heGf7FW6I+man32QnjZ1qVNG986duZk9vYefO/SHcDt7+\nPI9IjbPt1NMeXRS7v18OSFTPOW0EGAuyvl3bYvp9qJ09UPouPD0Pxc6w79OOMrJ5\ncn085+PVTH6qhIxe5CMFKhQsrA9600fH6r2U3Y/WzQizqbDWccUbPCtiZpt0gN0B\nZwIDAQAB\n-----END PUBLIC KEY-----",
+      "id": "did:web:inji.github.io:inji-config:released:mosipid-identity#93nKJqGO5wTUafw5nEo8LPCjO5HAvZOCP2X7DjWG1YY",
+      "type": "RsaVerificationKey2018",
+      "@context": "https://w3id.org/security/v1"
+    }
+  ],
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "alsoKnownAs": [],
+  "authentication": [
+    "did:web:inji.github.io:inji-config:released:mosipid-identity"
+  ]
+}
