@@ -6,6 +6,13 @@
   "id": "did:web:inji.github.io:inji-config:qa-inji1:mosipid-identity",
   "verificationMethod": [
     {
+      "controller": "did:web:inji.github.io:inji-config:qa-inji1:mosipid-identity",
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxosTw+x7ODK5v8Wr8KKW\nYoCtNu7F4p76PxbqDSyGMbJA8PpvogYeaO54tiGuVQ7gvZzdRZpsC+6YrNPq7C8W\nbsGgz0veZ1e1J/5ZpMvCA968sh+oL7tVxO7dIp8sW+PlRon/fyOuneHMJSNKepRT\n/D563hwYInTYFxb+UcCIJQEOg7zahRu9jono36qXeX1siadecwbraF20lX/Z5ADf\nsKpbUUGpHfLJZ17AG0rc2L4B1j6uRNeVw4V4DmigYV/hLBtvHTXOaosfp5S+jJaG\nnF8rI00//3VvCyOn8h6pfKwkxDqDGV4ZC5tY3pBVbtuGhm22tfJHejkXWObrjIV0\ncQIDAQAB\n-----END PUBLIC KEY-----",
+      "id": "did:web:inji.github.io:inji-config:qa-inji1:mosipid-identity#zcmHrQHXTBZTLhmKu9PmvJDo1kL3qZJBcg7PnZrG8OE",
+      "type": "RsaVerificationKey2018",
+      "@context": "https://w3id.org/security/v1"
+    },
+    {
       "publicKeyMultibase": "z6MkuBsYKofySZQBndbN4HfzJcBriSTiV6ddzvhvn9jNs3vF",
       "controller": "did:web:inji.github.io:inji-config:qa-inji1:mosipid-identity",
       "id": "did:web:inji.github.io:inji-config:qa-inji1:mosipid-identity#LZlxFqE5bjSjdjTtGdBbpNLaJfizy0QelKVBD6cnPWk",
